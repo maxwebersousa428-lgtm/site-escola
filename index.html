@@ -3,134 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bernardes - Cerquilho</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <h1>Bernardes</h1>
-        <p>Cerquilho - SP</p>
-    </header>
-
-    <main>
-        <section class="galeria">
-            <!-- Substitua os nomes abaixo pelos nomes reais dos seus arquivos de foto -->
-            <div class="foto-card">
-                <img src="foto1.jpg" alt="Foto 1 de Bernardes">
-            </div>
-            <div class="foto-card">
-                <img src="foto2.jpg" alt="Foto 2 de Bernardes">
-            </div>
-            <div class="foto-card">
-                <img src="foto3.jpg" alt="Foto 3 de Bernardes">
-            </div>
-            <div class="foto-card">
-                <img src="foto4.jpg" alt="Foto 4 de Bernardes">
-            </div>
-            <div class="foto-card">
-                <img src="foto5.jpg" alt="Foto 5 de Bernardes">
-            </div>
-            <div class="foto-card">
-                <img src="foto6.jpg" alt="Foto 6 de Bernardes">
-            </div>
-            <div class="foto-card">
-                <img src="foto7.jpg" alt="Foto 7 de Bernardes">
-            </div>
-            <div class="foto-card">
-                <img src="foto8.jpg" alt="Foto 8 de Bernardes">
-            </div>
-            <div class="foto-card">
-                <img src="foto9.jpg" alt="Foto 9 de Bernardes">
-            </div>
-            <div class="foto-card">
-                <img src="foto10.jpg" alt="Foto 10 de Bernardes">
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Bernardes - Cerquilho, SP</p>
-    </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E.E. Arthur da Silva Bernardes Presidente - Cerquilho/SP</title>
+    <title>E.E. Bernardes | Cerquilho-SP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header class="topo">
-        <div class="container">
-            <h1>E.E. Arthur da Silva Bernardes Presidente</h1>
-            <p class="subtitulo">Educação Pública de Qualidade • Cerquilho - SP</p>
-            <nav class="menu">
-                <a href="#sobre">Sobre a Escola</a>
-                <a href="#cursos">Ensino e Cursos</a>
-                <a href="#contato">Localização e Contato</a>
+        <div class="container cabecalho">
+            <div class="logo">
+                <span class="simbolo">EB</span>
+                <div>
+                    <h1>E.E. Bernardes</h1>
+                    <p>Arthur da Silva Bernardes Presidente</p>
+                </div>
+            </div>
+
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#sobre">A Escola</a>
+                <a href="#ensino">Ensino</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#contato">Contato</a>
             </nav>
         </div>
     </header>
 
+    <section class="banner" id="inicio">
+        <div class="banner-conteudo">
+            <span class="destaque">CERQUILHO • SP</span>
+            <h2>Educação que transforma.<br>Futuro que inspira.</h2>
+            <p>
+                Conhecimento, oportunidades e dedicação
+                para construir um futuro melhor.
+            </p>
+            <a href="#sobre" class="botao">Conheça nossa escola</a>
+        </div>
+    </section>
+
     <main>
-        <section class="banner">
-            <div class="container">
-                <h2>Formando cidadãos e preparando para o futuro</h2>
-                <p>Tradição, ensino médio e formação técnica no coração de Cerquilho.</p>
-                <a href="#cursos" class="botao">Conheça os Cursos</a>
-            </div>
-        </section>
 
         <section id="sobre" class="secao">
             <div class="container">
-                <h3>Sobre o Bernardes</h3>
-                <p>
-                    A <strong>Escola Estadual Arthur da Silva Bernardes Presidente</strong> é uma instituição de referência da rede estadual no município de Cerquilho, São Paulo. Com infraestrutura completa, laboratórios e quadras poliesportivas, promovemos o desenvolvimento acadêmico, cultural e profissional dos nossos estudantes.
+                <span class="subtitulo">NOSSA ESCOLA</span>
+                <h2>Bem-vindo ao Bernardes</h2>
+                <p class="texto-sobre">
+                    A Escola Estadual Arthur da Silva Bernardes Presidente,
+                    localizada em Cerquilho, São Paulo, é um espaço de
+                    aprendizado, desenvolvimento e convivência.
+                    Nosso objetivo é contribuir para a formação dos
+                    estudantes, promovendo conhecimento, cidadania,
+                    responsabilidade e preparação para o futuro.
                 </p>
             </div>
         </section>
 
-        <section id="cursos" class="secao fundo-claro">
+        <section id="ensino" class="secao fundo">
             <div class="container">
-                <h3>Modalidades de Ensino</h3>
+                <span class="subtitulo">APRENDIZADO</span>
+                <h2>Ensino e oportunidades</h2>
+
                 <div class="cards">
-                    <div class="card">
-                        <h4>Ensino Médio Regular</h4>
-                        <p>Formação geral básica focada no desenvolvimento crítico e preparação para o ENEM e vestibulares.</p>
-                    </div>
-                    <div class="card">
-                        <h4>NOVOTEC / Ensino Técnico</h4>
-                        <p>Qualificação profissional integrada nas áreas de <strong>Administração</strong>, <strong>Desenvolvimento de Sistemas</strong> e <strong>Vendas</strong>.</p>
-                    </div>
-                    <div class="card">
-                        <h4>Projetos e Esportes</h4>
-                        <p>Atividades extracurriculares, grêmio estudantil, eventos culturais e incentivo ao esporte.</p>
-                    </div>
+                    <article class="card">
+                        <div class="icone">📚</div>
+                        <h3>Ensino Médio</h3>
+                        <p>
+                            Aprendizado, desenvolvimento de habilidades
+                            e preparação para novos desafios acadêmicos
+                            e profissionais.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icone">💻</div>
+                        <h3>Ensino Técnico</h3>
+                        <p>
+                            Formação técnica com conhecimentos e
+                            competências voltados ao mundo do trabalho.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icone">🏆</div>
+                        <h3>Projetos e Esportes</h3>
+                        <p>
+                            Atividades, eventos, projetos escolares,
+                            cultura e incentivo ao esporte.
+                        </p>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section id="contato" class="secao">
+        <section id="galeria" class="secao">
             <div class="container">
-                <h3>Onde Estamos</h3>
-                <div class="info-contato">
-                    <p><strong>Endereço:</strong> Av. Presidente Washington Luiz, 478 - Centro, Cerquilho - SP, CEP 18520-039</p>
-                    <p><strong>Telefone:</strong> (15) 3284-1030</p>
-                    <p><strong>E-mail Institucional:</strong> e016664a@educacao.sp.gov.br</p>
-                    <p><strong>Instagram Oficial:</strong> <a href="https://www.instagram.com/escolabernardes_oficial/" target="_blank">@escolabernardes_oficial</a></p>
+                <span class="subtitulo">REGISTROS</span>
+                <h2>Galeria de fotos</h2>
+                <p class="introducao">
+                    Confira alguns registros da nossa escola,
+                    de seus espaços e atividades.
+                </p>
+
+                <div class="galeria">
+
+                    <div class="foto">
+                        <img src="fotos/foto1.jpg" alt="Foto 1 da escola">
+                        <span>Nosso espaço</span>
+                    </div>
+
+                    <div class="foto">
+                        <img src="fotos/foto2.jpg" alt="Foto 2 da escola">
+                        <span>Vida escolar</span>
+                    </div>
+
+                    <div class="foto">
+                        <img src="fotos/foto3.jpg" alt="Foto 3 da escola">
+                        <span>Atividades</span>
+                    </div>
+
+                    <div class="foto">
+                        <img src="fotos/foto4.jpg" alt="Foto 4 da escola">
+                        <span>Momentos</span>
+                    </div>
+
+                    <div class="foto">
+                        <img src="fotos/foto5.jpg" alt="Foto 5 da escola">
+                        <span>Aprendizado</span>
+                    </div>
+
+                    <div class="foto">
+                        <img src="fotos/foto6.jpg" alt="Foto 6 da escola">
+                        <span>Projetos</span>
+                    </div>
+
+                    <div class="foto">
+                        <img src="fotos/foto7.jpg" alt="Foto 7 da escola">
+                        <span>Eventos</span>
+                    </div>
+
+                    <div class="foto">
+                        <img src="fotos/foto8.jpg" alt="Foto 8 da escola">
+                        <span>Esporte</span>
+                    </div>
+
+                    <div class="foto">
+                        <img src="fotos/foto9.jpg" alt="Foto 9 da escola">
+                        <span>Comunidade</span>
+                    </div>
+
+                    <div class="foto">
+                        <img src="fotos/foto10.jpg" alt="Foto 10 da escola">
+                        <span>Bernardes</span>
+                    </div>
+
                 </div>
             </div>
         </section>
+
+        <section id="contato" class="secao fundo">
+            <div class="container">
+                <span class="subtitulo">INFORMAÇÕES</span>
+                <h2>Localização e contato</h2>
+
+                <div class="contato">
+                    <p>
+                        <strong>Endereço:</strong>
+                        Av. Presidente Washington Luiz, 478 -
+                        Centro, Cerquilho - SP, CEP 18520-039
+                    </p>
+
+                    <p>
+                        <strong>Telefone:</strong>
+                        (15) 3284-1030
+                    </p>
+
+                    <p>
+                        <strong>E-mail:</strong>
+                        e016664a@educacao.sp.gov.br
+                    </p>
+
+                    <p>
+                        <strong>Instagram:</strong>
+                        <a href="https://www.instagram.com/escolabernardes_oficial/"
+                           target="_blank" rel="noopener noreferrer">
+                            @escolabernardes_oficial
+                        </a>
+                    </p>
+                </div>
+
+                <a class="botao" target="_blank"
+                   rel="noopener noreferrer"
+                   href="https://maps.google.com/?q=E.E.+Arthur+da+Silva+Bernardes+Cerquilho">
+                    Ver no Google Maps
+                </a>
+            </div>
+        </section>
+
     </main>
 
     <footer class="rodape">
         <div class="container">
-            <p>&copy; 2026 E.E. Arthur da Silva Bernardes Presidente - Cerquilho/SP. Todos os direitos reservados.</p>
+            <h3>E.E. Arthur da Silva Bernardes Presidente</h3>
+            <p>Cerquilho - São Paulo</p>
+            <p>© 2026 • Site escolar</p>
         </div>
     </footer>
 
